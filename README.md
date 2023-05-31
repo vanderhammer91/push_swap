@@ -6,8 +6,8 @@ initialises a linked list with the contents of argv and sorts the stack in as fe
 <p><strong>Note:</strong> that many conventional sorting algorithms cant be applied as we have to obey hard rules, similar to how <br>
 the childhood toy works.</p>
 
-<p><strong>AVAILABLE OPERATIONS:</strong><br>
- <strong>PA (Put A): </strong>puts the first/top element of stack_B onto the top of stack_A <br>
+<h1><strong>AVAILABLE OPERATIONS:</strong></h1><br>
+ <p><strong>PA (Put A): </strong>puts the first/top element of stack_B onto the top of stack_A <br>
  <strong>PB (Put B): </strong>puts the first/top element of stack_A onto the top of stack_B <br><br>
  <strong>RA (Rotate A): </strong>puts the first node of the stack onto the bottom/end of the stack. Adjusts all node indices accordingly. <br>
  <strong>RB (Rotate B): </strong>puts the first node of the stack onto the bottom/end of the stack. Adjusts all node indices accordingly. <br>
