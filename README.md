@@ -7,17 +7,17 @@ initialises a linked list with the contents of argv and sorts the stack in as fe
 the childhood toy works.</p>
 
 <p><strong>AVAILABLE OPERATIONS:</strong><br>
-PA (Put A): puts the first/top element of stack_B onto the top of stack_A <br>
-PB (Put B): puts the first/top element of stack_A onto the top of stack_B <br>
-RA (Rotate A): puts the first node of the stack onto the bottom/end of the stack. Adjusts all node indices accordingly. <br>
-RB (Rotate B): puts the first node of the stack onto the bottom/end of the stack. Adjusts all node indices accordingly. <br>
-RR (Rotate A and B): Calls RA and RB. <br>
-RRA (Reverse Rotate A): puts the last node of the stack onto the top/start of the stack. Adjusts all node indices accordingly. <br>
-RRB (Reverse Rotate B): puts the last node of the stack onto the top/start of the stack. Adjusts all node indices accordingly. <br>
-RRR (Reverse Rotate A and B): Calls RRA and RRB. <br>
-SA (Swap A): Swaps the first two elements of stack A. <br>
-SB (Swap B): Swaps the first two elements of stack B. <br>
-SS (Swap A and B): Swaps the first two elements of stack A and stack B.<br>
+ <strong>PA (Put A): </strong>puts the first/top element of stack_B onto the top of stack_A <br>
+ <strong>PB (Put B): </strong>puts the first/top element of stack_A onto the top of stack_B <br><br>
+ <strong>RA (Rotate A): </strong>puts the first node of the stack onto the bottom/end of the stack. Adjusts all node indices accordingly. <br>
+ <strong>RB (Rotate B): </strong>puts the first node of the stack onto the bottom/end of the stack. Adjusts all node indices accordingly. <br>
+<strong>RR (Rotate A and B): </strong>Calls RA and RB. <br><br>
+ <strong>RRA (Reverse Rotate A): </strong>puts the last node of the stack onto the top/start of the stack. Adjusts all node indices accordingly. <br>
+<strong>RRB (Reverse Rotate B): </strong>puts the last node of the stack onto the top/start of the stack. Adjusts all node indices accordingly. <br>
+ <strong>RRR (Reverse Rotate A and B):</strong> Calls RRA and RRB. <br><br<
+ <strong>SA (Swap A):</strong> Swaps the first two elements of stack A. <br>
+ <strong>SB (Swap B):</strong> Swaps the first two elements of stack B. <br>
+<strong>SS (Swap A and B): Swaps the first two elements of stack A and stack B.<br>
 </p>
 
 <p><strong>OVERALL IMPLEMENTATION GUIDE:</strong><br>
