@@ -14,7 +14,7 @@ the childhood toy works.</p>
 <strong>RR (Rotate A and B): </strong>Calls RA and RB. <br><br>
  <strong>RRA (Reverse Rotate A): </strong>puts the last node of the stack onto the top/start of the stack. Adjusts all node indices accordingly. <br>
 <strong>RRB (Reverse Rotate B): </strong>puts the last node of the stack onto the top/start of the stack. Adjusts all node indices accordingly. <br>
- <strong>RRR (Reverse Rotate A and B):</strong> Calls RRA and RRB. <br><br<
+ <strong>RRR (Reverse Rotate A and B):</strong> Calls RRA and RRB. <br><br>
  <strong>SA (Swap A):</strong> Swaps the first two elements of stack A. <br>
  <strong>SB (Swap B):</strong> Swaps the first two elements of stack B. <br>
 <strong>SS (Swap A and B): Swaps the first two elements of stack A and stack B.<br>
