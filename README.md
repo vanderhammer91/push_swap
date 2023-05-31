@@ -1,6 +1,6 @@
-<p><strong>Push_Swap</strong>
-My implementation of Push Swap: <br>
-It initialises a linked list with the contents of argv and sorts the stack in as fewer operations as possible. <br>
+<p><strong>Push_Swap</strong><br>
+ <em>My implementation of Push Swap:M </em><br>
+initialises a linked list with the contents of argv and sorts the stack in as fewer operations as possible. <br>
 It does this by performing operations between two stacks A and B. <br></p>
 
 <p>Note that many conventional sorting algorithms cant be applied as we have to obey hard rules, similar to how <br>
