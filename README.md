@@ -1,12 +1,12 @@
-<p><strong>Push_Swap</strong><br>
- <em>My implementation of Push Swap:<br>
+<h1><strong>Push_Swap</strong></h1><br>
+ <p><em>My implementation of Push Swap:<br>
 initialises a linked list with the contents of argv and sorts the stack in as fewer operations as possible. <br>
   It does this by performing operations between two stacks A and B.</em><br></p>
 
 <p><strong>Note:</strong> that many conventional sorting algorithms cant be applied as we have to obey hard rules, similar to how <br>
 the childhood toy works.</p>
 
-<h1><strong>AVAILABLE OPERATIONS:</strong></h1><br>
+<h2><strong>AVAILABLE OPERATIONS:</strong></h2><br>
  <p><strong>PA (Put A): </strong>puts the first/top element of stack_B onto the top of stack_A <br>
  <strong>PB (Put B): </strong>puts the first/top element of stack_A onto the top of stack_B <br><br>
  <strong>RA (Rotate A): </strong>puts the first node of the stack onto the bottom/end of the stack. Adjusts all node indices accordingly. <br>
@@ -20,8 +20,8 @@ the childhood toy works.</p>
 <strong>SS (Swap A and B): Swaps the first two elements of stack A and stack B.<br>
 </p>
 
-<p><strong>OVERALL IMPLEMENTATION GUIDE:</strong><br>
-1.Starts by checking validity and populating inputs from argv and inserting them into our linked list stack_A. <br>
+<h2><strong>OVERALL IMPLEMENTATION GUIDE:</strong></h2><br>
+<p>1.Starts by checking validity and populating inputs from argv and inserting them into our linked list stack_A. <br>
 2.pushes all nodes of Stack_A into Stack_B but 3. <br>
 3.Perform a short sort on our 3 elements left within stack_A. <br>
 4.Calculate the current target index within stack_A for each element of stack_B. <br>
